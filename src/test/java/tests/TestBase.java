@@ -18,7 +18,7 @@ public class TestBase {
     static void beforeAll(){
         String login = credentials.login();
         String password = credentials.password();
-        String url = System.getProperty("url");
+        String url = System.getProperty("URL");
 
         SelenideLogger.addListener("Allure", new AllureSelenide());
 
