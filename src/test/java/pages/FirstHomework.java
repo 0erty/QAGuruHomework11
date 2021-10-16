@@ -18,7 +18,7 @@ import static tests.TestData.*;
 import static utils.RandomUtils.getRandomPhone;
 import static utils.RandomUtils.getRandomSubject;
 
-public class FirstHomework extends TestBase {
+public class FirstHomework {
 
     public CalendarComponent calendar = new CalendarComponent();
     Faker faker = new Faker();
