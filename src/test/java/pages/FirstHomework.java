@@ -6,6 +6,7 @@ import com.github.javafaker.Faker;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Test;
 import pages.components.CalendarComponent;
+import tests.TestBase;
 
 import java.io.File;
 
@@ -17,7 +18,7 @@ import static tests.TestData.*;
 import static utils.RandomUtils.getRandomPhone;
 import static utils.RandomUtils.getRandomSubject;
 
-public class FirstHomework {
+public class FirstHomework extends TestBase {
 
     public CalendarComponent calendar = new CalendarComponent();
     Faker faker = new Faker();
