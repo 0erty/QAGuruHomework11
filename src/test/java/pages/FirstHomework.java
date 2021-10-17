@@ -90,7 +90,7 @@ public class FirstHomework {
 
     @Step("Загрузка картинки")
     public void uploadPicture() {
-        fileForm.uploadFile(new File("src/test/java/resources/elon_musk.jpg"));
+        fileForm.uploadFile(new File("src/test/resources/elon_musk.jpg"));
     }
 
     @Step("Заполнение адреса")
